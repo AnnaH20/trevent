@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="header__block">
+
+    <div class="wrapper">
+      <div class="header">
+
+        <div class="header__logo">
+          <img src="./img/logo.png" alt="" class="src">
+        </div>
+
+        <div class="header__info">
+          <div class="header__icons-phone"></div>
+          <div class="header__contacts">
+            <div class="header__hours">графік роботи: 9:00-18:00</div>
+
+            <div class="header__numbers">
+              <div class="header__number">
+                <a href="tel:0988690025">(098) 86 900 25</a>
+              </div>
+              <ul>
+                <li>
+                  <div class="header__number">
+                    <a href="tel:0988690025">(098) 86 900 26</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="header__number">
+                    <a href="tel:0988690025">(098) 86 900 27</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="header__languages">
+          <div class="header__language">
+            <a href="#">
+              <div class="header__flag"></div> UA
+            </a>
+          </div>
+          <ul>
+            <li>
+              <div class="header__language">
+                <a href="#">
+                  <div class="header__flag"></div> EN
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="header__language">
+                <a href="#">
+                  <div class="header__flag"></div> DE
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="header__menu">
+          <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <nav class="menu__list">
+              <li><a class="menu__link" href="#">головна</a></li>
+              <li><a class="menu__link" href="#">компанія</a></li>
+              <li class="menu__deep">
+                <a class="menu__link" href="#">продукція</a>
+                <ul>
+                  <li><a href="#" class="menu__link">Cars</a></li>
+                  <li><a href="#" class="menu__link">Airplanes</a></li>
+                </ul>
+              </li>
+              <li class="menu__deep">
+                <a class="menu__link" href="#">підтримка</a>
+                <ul>
+                  <li class="menu__link"><a href="#">First link</a></li>
+                  <li class="menu__link"><a href="#">Another link</a></li>
+                  <li class="menu__link"><a href="#">Some link</a></li>
+                </ul>
+              </li>
+              <li><a class="menu__link" href="#">контакти</a></li>
+            </nav>
+          </div>
+        </div>
+
+        <div class="header__search"></div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div id="carousel-slider" class="carousel slide" data-ride="carousel" data-interval="101000">
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-slider" data-slide-to="1"></li>
+      <li data-target="#carousel-slider" data-slide-to="2"></li>
+      <li data-target="#carousel-slider" data-slide-to="0"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="wrapper">
+          <div class="carousel-caption">
+            <div class="carousel-caption__uppertitle">Промислове</div>
+            <div class="carousel-caption__title">Кліматичне Oбладнання</div>
+            <div class="carousel-caption__subtitle">Працює з кращими постачальниками комплектуючих з усього світу,
+              розробляє
+              обладнання стандартного і не стандартного виконання.</div>
+            <button class="carousel-caption__btn">детальніше</button>
+          </div>
+        </div>
+        <img src="/img/slide.jpg" data-thumb="/img/slide1pg" alt="" />
+      </div>
+      <div class="carousel-item">
+        <img src="/img/slide.jpg" data-thumb="/img/slide1pg" alt="" />
+      </div>
+      <div class="carousel-item">
+        <img src="/img/slide.jpg" data-thumb="/img/slide1pg" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <div class="benefits__block">
+    <div class="wrapper">
+      <div class="benefits__row">
+        <div class="benefits">
+          <div class="benefits__image">
+            <img src="/img/icon1.png" alt="">
+          </div>
+          <div class="benefits__uppertitle">якість</div>
+          <div class="benefits__title">Обладнання складається з комплектуючих європейського рівня.</div>
+        </div>
+        <div class="benefits">
+          <div class="benefits__image">
+            <img src="/img/icon2.png" alt="">
+          </div>
+          <div class="benefits__uppertitle">гарантія</div>
+          <div class="benefits__title">Продукти Trevent мають 24 місяці гарантії.</div>
+        </div>
+        <div class="benefits">
+          <div class="benefits__image">
+            <img src="/img/icon3.png" alt="">
+          </div>
+          <div class="benefits__uppertitle">підтримка</div>
+          <div class="benefits__title">Кваліфікований персонал завжди готовий допомогти.</div>
+        </div>
+        <div class="benefits">
+          <div class="benefits__image">
+            <img src="/img/icon4.png" alt="">
+          </div>
+          <div class="benefits__uppertitle">технологія</div>
+          <div class="benefits__title">Використовуються сучасні технології та матеріали.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="content__products products">
+    <div class="wrapper">
+      <h2 class="products__title">Продукція</h2>
+      <h3 class="products__subtitle">Використання електрики в якості джерала нагріву отримало свою популярність в
+        деяких
+        випадках. Такі рішення застосовують для реалізації системи опалення в умовах, де немає можливості підключення
+        традиційного теплоносія(води) або де системи опалення планується використовувати тимчасово.
+      </h3>
+      <div class="products__items">
+
+        <div class="products__item">
+          <div class="products__image">
+            <img src="img/prod1.jpg" alt="">
+            <div class="products__name">електричний нагрів</div>
+            <div class="products__block">
+              <div class="products__photo">
+                <img src="/img/icon5.png" alt="">
+              </div>
+              <div class="products__uppertext">електричний нагрів</div>
+              <div class="products__text">Використання електрики в якості джерела нагріву отримало власну популярність
+                в деяких випадках. </div>
+              <button class="products__btn">детальніше</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="products__item">
+          <div class="products__image">
+            <img src="img/prod2.jpg" alt="">
+            <div class="products__name">Водяні теплоносії</div>
+            <div class="products__block">
+              <div class="products__photo">
+                <img src="/img/icon5.png" alt="">
+              </div>
+              <div class="products__uppertext">електричний нагрів</div>
+              <div class="products__text">Використання електрики в якості джерела нагріву отримало власну популярність
+                в деяких випадках. </div>
+              <button class="products__btn">детальніше</button>
+            </div>
+          </div>
+        </div>
+        <div class="products__item">
+          <div class="products__image">
+            <img src="img/prod3.jpg" alt="">
+            <div class="products__name">Повітряні завіси</div>
+            <div class="products__block">
+              <div class="products__photo">
+                <img src="/img/icon5.png" alt="">
+              </div>
+              <div class="products__uppertext">електричний нагрів</div>
+              <div class="products__text">Використання електрики в якості джерела нагріву отримало власну популярність
+                в деяких випадках. </div>
+              <button class="products__btn">детальніше</button>
+            </div>
+          </div>
+        </div>
+        <div class="products__item">
+          <div class="products__image">
+            <img src="img/prod4.jpg" alt="">
+            <div class="products__name">камери припливу</div>
+            <div class="products__block">
+              <div class="products__photo">
+                <img src="/img/icon5.png" alt="">
+              </div>
+              <div class="products__uppertext">електричний нагрів</div>
+              <div class="products__text">Використання електрики в якості джерела нагріву отримало власну популярність
+                в деяких випадках. </div>
+              <button class="products__btn">детальніше</button>
+            </div>
+          </div>
+        </div>
+  </section>
+  </div>
+
+
+  <div class="slider-block">
+    <div class="wrapper">
+      <div class="slider-block__title">Нам довіряють</div>
+      <div class="slider">
+        <div class="slider__item filter">
+          <img src="img/company1.png" alt="">
+        </div>
+        <div class="slider__item">
+          <img src="img/company2.png" alt="">
+        </div>
+        <div class="slider__item filter">
+          <img src="img/company3.png" alt="">
+        </div>
+        <div class="slider__item">
+          <img src="img/company4.png" alt="">
+        </div>
+        <div class="slider__item">
+          <img src="img/company4.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="footer__block">
+    <div class="wrapper">
+
+      <div class="footer__logo">
+        <img src="./img/logo-footer.png" alt="" class="src">
+      </div>
+
+
+      <nav class="footer__row">
+        <li><a class="footer__menu" href="#">компанія</a></li>
+        <li><a class="footer__menu" href="#">продукція</a></li>
+        <li><a class="footer__menu" href="#">рішення</a></li>
+        <li><a class="footer__menu" href="#">підтримка</a></li>
+        <li><a class="footer__menu" href="#">питання та відповіді</a></li>
+        <li><a class="footer__menu" href="#">контакти</a></li>
+      </nav>
+
+
+      <div class="footer__icons">
+        <img src="./img/fb.png" alt="" class="src">
+        <img src="./img/youtube.png" alt="" class="src">
+      </div>
+
+      <div class="footer__develop"> &copy;
+        <span class="footer__letter">trevent,</span> 2019. Дизайн розробляли <span class="footer__letter">onca</span>
+      </div>
+
+    </div>
+  </div>
+  <div class="swipe hide"></div>
+  <script src="js/slick.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
