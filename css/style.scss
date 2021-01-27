@@ -62,7 +62,7 @@ body {
   }
 }
 .header__icons-phone {
-  background-image: url(/img/phone-icon.png);
+  background-image: url(../img/phone-icon.png);
   background-position: center;
   background-repeat: no-repeat;
   flex-shrink: 0;
@@ -116,7 +116,7 @@ body {
   @include addArrowOnRight(var(--button-color));
 }
 .header__flag {
-  background-image: url(/img/flag.png);
+  background-image: url(../img/flag.png);
   background-position: left center;
   background-repeat: no-repeat;
   display: inline-block;
@@ -278,7 +278,7 @@ body {
   }
 }
 .header__search {
-  background-image: url(/img/search-icon.png);
+  background-image: url(../img/search-icon.png);
   background-position: center;
   background-repeat: no-repeat;
   flex-shrink: 0;
@@ -422,7 +422,7 @@ body {
 .products {
   padding-top: 57px;
   padding-bottom: 0px;
-  background-image: url(/img/product-bg.jpg);
+  background-image: url(../img/product-bg.jpg);
   background-repeat: no-repeat;
   background-position: right 118%;
   @media (max-width: 850px) {
