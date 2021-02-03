@@ -620,7 +620,7 @@ body {
   top: calc(50% - 10px);
   width: 12px;
   height: 20px;
-  text-indent: -9999px;
+  font-size: 0;
   border: none;
   background: url("../img/arrow-horizontal.png");
 }
